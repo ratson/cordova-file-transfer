@@ -21,11 +21,7 @@ description: Upload and download files.
 #         under the License.
 -->
 
-|AppVeyor|Travis CI|
-|:-:|:-:|
-|[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/cordova-plugin-file-transfer?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/cordova-plugin-file-transfer)|[![Build Status](https://travis-ci.org/apache/cordova-plugin-file-transfer.svg?branch=master)](https://travis-ci.org/apache/cordova-plugin-file-transfer)|
-
-# cordova-plugin-file-transfer
+# cordova-file-transfer
 
 # Usage notice
 
@@ -48,12 +44,12 @@ function onDeviceReady() {
 
 > To get a few ideas, check out the [sample](#sample) at the bottom of this page.
 
-Report issues with this plugin on the [Apache Cordova issue tracker](https://issues.apache.org/jira/issues/?jql=project%20%3D%20CB%20AND%20status%20in%20%28Open%2C%20%22In%20Progress%22%2C%20Reopened%29%20AND%20resolution%20%3D%20Unresolved%20AND%20component%20%3D%20%22Plugin%20File%20Transfer%22%20ORDER%20BY%20priority%20DESC%2C%20summary%20ASC%2C%20updatedDate%20DESC)
+Report issues with this plugin on the [GitHub issue tracker](https://github.com/ratson/cordova-file-transfer/issues)
 
 ## Installation
 
 ```bash
-cordova plugin add cordova-plugin-file-transfer
+cordova plugin add cordova-file-transfer
 ```
 
 ## Supported Platforms
