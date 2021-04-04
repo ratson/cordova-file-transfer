@@ -1,6 +1,6 @@
 {
-  "name": "cordova-plugin-file-transfer",
-  "version": "2.0.0-dev",
+  "name": "@frat/cordova-plugin-file-transfer",
+  "version": "2.0.0",
   "description": "Cordova File Transfer Plugin",
   "types": "./types/index.d.ts",
   "cordova": {
@@ -16,8 +16,7 @@
     "test": "npm run lint",
     "lint": "eslint ."
   },
-  "repository": "github:apache/cordova-plugin-file-transfer",
-  "bugs": "https://github.com/apache/cordova-plugin-file-transfer/issues",
+  "repository": "https://github.com/ratson/cordova-plugin-file-transfer",
   "keywords": [
     "cordova",
     "file",
@@ -28,8 +27,11 @@
     "cordova-windows",
     "cordova-browser"
   ],
-  "author": "Apache Software Foundation",
+  "author": "Ratson",
   "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "cordovaDependencies": {
       "3.0.0": {
